@@ -11,7 +11,8 @@
     "outDir": "dist",
     "downlevelIteration": true,
     "esModuleInterop": true,
-    "noImplicitAny": false
+    "noImplicitAny": false,
+    "resolveJsonModule": true,
   },
   "include": ["src/**/*"]
 }
