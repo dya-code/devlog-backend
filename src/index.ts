@@ -31,4 +31,8 @@ app.get("/new/:title/:content", (req, res) => {
     res.send(`title: ${title} / content: ${content}`)
 });
 
+app.get('/view', (_, res) => {
+    res.send(JSON.stringify(data))
+})
+
 app.listen(port, () => { console.log(`http://localhost:${port}`) })
